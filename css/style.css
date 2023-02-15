@@ -1,0 +1,224 @@
+body {
+    background: #000;
+    /* height: 100vh;
+    background-size: cover;
+ 
+    min-height: 100vh; */
+    margin: 0;
+}
+
+h1#logoname a {
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+
+.header-wrapper {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    height: 6.250vw;
+}
+
+.nav-wrapper {
+    display: flex;
+    margin-left: 11.354vw;
+
+}
+
+h1#logoname {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 20.365vw;
+    margin-left: 2.604vw;
+}
+
+.newsocialswarpper {
+    margin-left: 16.771vw;
+}
+
+div#nav {
+    width: 39.354vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#close-wrapper {
+    display: none;
+}
+
+div#nav a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.section-wrapper {
+    position: relative;
+}
+
+.textwrapper {
+    bottom: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    color: #fff;
+    text-align: center;
+}
+
+.owl-dots {
+    text-align: center;
+    margin: 1.5vw auto 0;
+}
+
+.owl-carousel .owl-dot {
+    display: inline-block;
+}
+
+.owl-dots button span,
+.owl-dots span {
+    width: 0.55vw;
+    height: 0.55vw;
+    border: 1px solid #fff;
+    border-radius: 1vw;
+    background: transparent;
+    display: inline-block;
+    margin: 0 0.3vw;
+    border-color: #fff;
+}
+
+.owl-dots button.active span,
+.owl-dots .active span {
+    background: #ffffff;
+}
+
+.owl-dots {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.owl-carousel .owl-dot {
+    display: inline-block;
+}
+
+.owl-dots button span,
+.owl-dots span {
+    width: 0.55vw;
+    height: 0.55vw;
+    border: 1px solid #fff;
+    border-radius: 1vw;
+    background: transparent;
+    display: inline-block;
+    margin: 0 0.3vw;
+    border-color: #fff;
+}
+
+.owl-dots button.active span,
+.owl-dots .active span {
+    background: #ffffff;
+}
+
+
+.owl-carousel.owl-loaded {
+    position: relative;
+}
+
+.section-one.owl-carousel {
+    width: 100%;
+}
+
+.owl-prev {
+    position: absolute;
+    transform: translate(-90%, -50%);
+    left: 0%;
+    top: 50%;
+}
+
+.owl-next {
+    position: absolute;
+    transform: translate(0%, -50%);
+    right: 0;
+    top: 50%;
+}
+
+.owl-nav img {
+    width: 10%;
+}
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+    text-align: right;
+}
+
+.owl-carousel .owl-stage-outer {
+    max-width: 100%;
+    width: 100%;
+}
+
+.section-one {
+    width: 100%;
+}
+
+.section-wrapper {
+    width: 100%;
+}
+
+.owl-carousel.owl-drag .owl-item .imgwrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.section-two-wrapper {
+    display: inline-block;
+    width: 20%;
+    margin: 2vw;
+    position: relative;
+}
+
+.section-two {
+    margin: 2vw auto;
+}
+
+.section-two-wrapper img {
+    width: 100%
+}
+
+.section-two-wrapper a img {
+    opacity: 1;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.textoimg {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.section-two-wrapper:hover .textoimg {
+    opacity: 1;
+}
+
+.section-two-wrapper:hover a img {
+    opacity: 0.3;
+}
+
+.Textarea {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.6vw;
+}
