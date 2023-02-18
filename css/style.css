@@ -1,10 +1,7 @@
 body {
     background: #000;
-    /* height: 100vh;
-    background-size: cover;
- 
-    min-height: 100vh; */
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1#logoname a {
@@ -14,10 +11,10 @@ h1#logoname a {
 }
 
 .header-wrapper {
-    position: fixed;
-    top: 0;
+    /* position: fixed; */
+    /* top: 0; */
     width: 100%;
-    z-index: 2;
+    /* z-index: 2; */
     background: #ffffff;
     display: flex;
     align-items: center;
@@ -178,17 +175,20 @@ div#nav a {
 
 .section-two-wrapper {
     display: inline-block;
-    width: 20%;
-    margin: 2vw;
+    width: 17%;
+    margin: 1vw;
     position: relative;
 }
 
-.section-two {
-    margin: 2vw auto;
-}
+
 
 .section-two-wrapper img {
     width: 100%
+}
+
+.section-two {
+    text-align: center;
+    margin: 4vw auto;
 }
 
 .section-two-wrapper a img {
