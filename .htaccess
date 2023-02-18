@@ -1,4 +1,0 @@
-AuthType Basic 
-AuthName "My Protected Folder" 
-AuthUserFile /PhyMedSolv1/.htpasswd
-require valid-user
