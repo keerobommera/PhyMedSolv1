@@ -6,6 +6,8 @@ $(document).ready(function () {
         loop: true,
         stagePadding: 0,
         autoplay: false,
+        slideSpeed: 600,
+        paginationSpeed: 100,
         nav: true,
         center: true,
         items: 1,
@@ -13,6 +15,37 @@ $(document).ready(function () {
         autoHeight: true,
         navText: ["<img src='./images/LeftArrow.png'>", "<img src='./images/rightArrow.png'>"]
     })
-    // slideSpeed: 300,
-    // paginationSpeed: 400,
+   
+   
 });
+
+if (window.innerWidth <= 1024) {
+    $(document).ready(function () {
+    $("div#close-wrapper").click(function () {
+        $('div#nav').toggleClass('mob-open');
+        $('div#close-wrapper').toggleClass('opened');
+
+    });
+    $(window).resize(function(){
+        $("div#close-wrapper").click(function () {
+            $('div#nav').toggleClass('mob-open');
+            $('div#close-wrapper').toggleClass('opened');
+    
+        });
+    });
+});
+}
+// if (window.innerWidth <= 1023) {
+//     $(document).ready(function () {
+//         $("div#close-wrapper").click(function () {
+//             $('span#menu-mob').toggleClass('mob-open');
+//         });
+//     });
+// }
+// if (window.innerWidth <= 1024) {
+    
+//     $(document).ready(function () {
+//     $("div#close-wrapper").click(function () {
+//         $('span#menu-mob').toggleClass('mob-open');
+//     });
+// }
