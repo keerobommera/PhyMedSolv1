@@ -1,7 +1,8 @@
-$(document).ready(function () {
+jQuery(window).load(function(){
 
-    $(".section-one").addClass("owl-carousel");
-    $(".section-one.owl-carousel").owlCarousel({
+
+    jQuery(".section-one").addClass("owl-carousel");
+    jQuery(".section-one.owl-carousel").owlCarousel({
         margin: 0,
         loop: true,
         stagePadding: 0,
@@ -20,32 +21,32 @@ $(document).ready(function () {
 });
 
 if (window.innerWidth <= 1024) {
-    $(document).ready(function () {
-    $("div#close-wrapper").click(function () {
-        $('div#nav').toggleClass('mob-open');
-        $('div#close-wrapper').toggleClass('opened');
+    jQuery(document).ready(function () {
+    jQuery("div#close-wrapper").click(function () {
+        jQuery('div#nav').toggleClass('mob-open');
+        jQuery('div#close-wrapper').toggleClass('opened');
 
     });
-    $(window).resize(function(){
-        $("div#close-wrapper").click(function () {
-            $('div#nav').toggleClass('mob-open');
-            $('div#close-wrapper').toggleClass('opened');
+    jQuery(window).resize(function(){
+        jQuery("div#close-wrapper").click(function () {
+            jQuery('div#nav').toggleClass('mob-open');
+            jQuery('div#close-wrapper').toggleClass('opened');
     
         });
     });
 });
 }
 // if (window.innerWidth <= 1023) {
-//     $(document).ready(function () {
-//         $("div#close-wrapper").click(function () {
-//             $('span#menu-mob').toggleClass('mob-open');
+//     jQuery(document).ready(function () {
+//         jQuery("div#close-wrapper").click(function () {
+//             jQuery('span#menu-mob').toggleClass('mob-open');
 //         });
 //     });
 // }
 // if (window.innerWidth <= 1024) {
     
-//     $(document).ready(function () {
-//     $("div#close-wrapper").click(function () {
-//         $('span#menu-mob').toggleClass('mob-open');
+//     jQuery(document).ready(function () {
+//     jQuery("div#close-wrapper").click(function () {
+//         jQuery('span#menu-mob').toggleClass('mob-open');
 //     });
 // }
