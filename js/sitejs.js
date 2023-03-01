@@ -1,7 +1,8 @@
-jQuery(window).load(function(){
+jQuery(document).ready(function(){
 
 
-    jQuery(".section-one").addClass("owl-carousel");
+    setTimeout(function(){
+        jQuery(".section-one").addClass("owl-carousel");
     jQuery(".section-one.owl-carousel").owlCarousel({
         margin: 0,
         loop: true,
@@ -16,6 +17,8 @@ jQuery(window).load(function(){
         autoHeight: true,
         navText: ["<img src='./images/LeftArrow.png'>", "<img src='./images/rightArrow.png'>"]
     })
+    }, 1500);
+    
    
    
 });
