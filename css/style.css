@@ -222,8 +222,9 @@ img {
     border: 0.3vw solid #f90000;
     border-radius: 10vw;
     /* margin: 11vw auto; */
-    padding: 1.4vw 1vw;
+    padding: 0.5vw 1vw;
     font-weight: 500;
+    font-size: 0.9vw;
     background: #f90000;
 }
 
