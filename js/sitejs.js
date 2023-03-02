@@ -2,8 +2,8 @@ jQuery(document).ready(function(){
 
 
     setTimeout(function(){
-        jQuery(".section-one").addClass("owl-carousel");
-    jQuery(".section-one.owl-carousel").owlCarousel({
+        jQuery(".section-one.page-home").addClass("owl-carousel");
+    jQuery(".section-one.page-home.owl-carousel").owlCarousel({
         margin: 0,
         loop: true,
         stagePadding: 0,
