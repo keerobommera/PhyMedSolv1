@@ -1,0 +1,78 @@
+body {
+    background: #ffffff;
+    margin: 0;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Oswald', sans-serif */
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+h1#logoname a {
+
+    color: #000;
+    text-decoration: none;
+}
+
+.header-wrapper {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    height: 6.250vw;
+}
+
+
+h1#logoname {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 20.365vw;
+    margin-left: 2.604vw;
+}
+
+.newsocialswarpper {
+    margin-left: 16.771vw;
+}
+
+div#nav {
+    width: 39.354vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#close-wrapper {
+    display: none;
+}
+
+div#nav a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+
+}
+
+div#nav a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 0.2vw;
+    top: 1.5vw;
+    left: 0;
+    background-color: #f90000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+div#nav a:hover::after,
+div#nav a.active::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
